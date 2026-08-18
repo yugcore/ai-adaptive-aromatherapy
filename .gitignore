@@ -1,0 +1,77 @@
+# ==============================================================================
+# Git Ignore Rules for Smart Aromatherapy System
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Dependencies
+.venv/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Datasets (Large CSV & Archive files)
+HRV stress dataset/
+physiological stress detection dataset/
+wearable HRV emotion dataset/
+*.csv
+*.zip
+*.tar.gz
+*.parquet
+*.npy
+
+# Project Patent / Specification PDF (Proprietary / Heavy Document)
+AI-Driven Emotion and Environment Adaptive Smart Aromatherapy System IDF-B.pdf
+*.pdf
+*.docx
+
+# Saved Trained Models (Binary Artifacts)
+saved_models/*.joblib
+*.pkl
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# User Private Notes (Local Reference Only)
+USER.md
+
+# Logs, Diagnostics & Temp Outputs
+logs/
+*.log
+outputs/
+temp/
+tmp/
+.cache/
+.pytest_cache/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

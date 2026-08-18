@@ -1,0 +1,85 @@
+{
+  "classes": [
+    "interruption",
+    "no stress",
+    "time pressure"
+  ],
+  "feature_names": [
+    "MEAN_RR",
+    "MEDIAN_RR",
+    "SDRR",
+    "RMSSD",
+    "SDSD",
+    "SDRR_RMSSD",
+    "HR",
+    "pNN25",
+    "pNN50",
+    "SD1",
+    "SD2",
+    "KURT",
+    "SKEW",
+    "MEAN_REL_RR",
+    "MEDIAN_REL_RR",
+    "SDRR_REL_RR",
+    "RMSSD_REL_RR",
+    "SDSD_REL_RR",
+    "SDRR_RMSSD_REL_RR",
+    "KURT_REL_RR",
+    "SKEW_REL_RR",
+    "VLF",
+    "VLF_PCT",
+    "LF",
+    "LF_PCT",
+    "LF_NU",
+    "HF",
+    "HF_PCT",
+    "HF_NU",
+    "TP",
+    "LF_HF",
+    "HF_LF",
+    "sampen",
+    "higuci"
+  ],
+  "config": {
+    "n_estimators": 100,
+    "max_depth": 25,
+    "min_samples_split": 5,
+    "random_state": 42
+  },
+  "summary": {
+    "train_samples": 369289,
+    "train_features": 34,
+    "training_time_sec": 26.76,
+    "classes": [
+      "interruption",
+      "no stress",
+      "time pressure"
+    ],
+    "evaluation": {
+      "dataset": "Test.csv",
+      "sample_count": 41033,
+      "accuracy": 1.0,
+      "f1_weighted": 1.0,
+      "f1_macro": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "confusion_matrix": [
+        [
+          11782,
+          0,
+          0
+        ],
+        [
+          0,
+          22158,
+          0
+        ],
+        [
+          0,
+          0,
+          7093
+        ]
+      ]
+    }
+  }
+}
